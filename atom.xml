@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-08T01:36:50.616Z</updated>
+  <updated>2015-12-12T03:23:35.324Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[My Blog Website]]></title>
+    <link href="http://yoursite.com/2015/12/12/index/"/>
+    <id>http://yoursite.com/2015/12/12/index/</id>
+    <published>2015-12-12T03:23:35.324Z</published>
+    <updated>2015-12-12T03:23:35.324Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://slmsky.github.io/" target="_blank" rel="external">SLM’s blog</a></p>
+<h2 id="MY_plan"><a href="#MY_plan" class="headerlink" title="MY plan"></a>MY plan</h2><p>###Record my idea usually.</p>
+<p>###Share useful information.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://slmsky.github.io/" target="_blank" rel="external">SLM’s blog</a></p>
+<h2 id="MY_plan"><a href="#MY_plan" class]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
