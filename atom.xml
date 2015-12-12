@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个默默无闻的虫子]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-12T07:09:25.064Z</updated>
+  <updated>2015-12-12T09:04:29.356Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,18 +15,78 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[My Blog Website]]></title>
-    <link href="http://yoursite.com/2015/12/12/index/"/>
-    <id>http://yoursite.com/2015/12/12/index/</id>
-    <published>2015-12-12T07:09:25.064Z</published>
-    <updated>2015-12-12T07:09:25.064Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://slmsky.github.io/" target="_blank" rel="external">SLM’s blog</a></p>
-<h2 id="MY_plan"><a href="#MY_plan" class="headerlink" title="MY plan"></a>MY plan</h2><p>Record my idea usually.<br>Share useful information.</p>
+    <title><![CDATA[Hexo主题Yilia]]></title>
+    <link href="http://yoursite.com/2015/12/12/Test/"/>
+    <id>http://yoursite.com/2015/12/12/Test/</id>
+    <published>2015-12-12T10:03:00.000Z</published>
+    <updated>2015-12-12T09:04:29.356Z</updated>
+    <content type="html"><![CDATA[<ol>
+<li>我喜欢简约。所以标签云，搜索框都拿掉了</li>
+<li>接地气一点。所以用上了jiathis分享，友言评论，以及baidu的cdn</li>
+<li>让大家把注意力放到内容上。这是本主题设计初衷</li>
+<li>主题不支持IE6，7，8。以后也不会</li>
+</ol>
+<a id="more"></a>
+<p>##一、使用</p>
+<p>####<strong>1. 安装</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
+<p>####<strong>2. 配置</strong></p>
+<p>修改hexo根目录下的 <code>_config.yml</code> ： <code>theme: yilia</code></p>
+<p>####<strong>3. 更新</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/yilia</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<p>##二、外观</p>
+<p>####<strong>宽屏</strong><br><img src="http://littendomo.sinaapp.com/yilia/yilia-pc1.png" alt="宽屏">        </p>
+<p>####<strong>宽屏文字</strong><br><img src="http://littendomo.sinaapp.com/yilia/yilia-pc2.png" alt="宽屏文字">   </p>
+<p>####<strong>窄屏</strong><br><img src="http://littendomo.sinaapp.com/yilia/yilia-pc3.png" alt="窄屏">     </p>
+<p>####<strong>同步instagram</strong><br><img src="http://littendomo.sinaapp.com/yilia/yilia-pc4.png" alt="同步instagram"></p>
+<p>####<strong>移动端</strong><br><img src="http://littendomo.sinaapp.com/yilia/yilia-mobile.png" alt="移动端"><br><img src="http://littendomo.sinaapp.com/yilia/yilia-mobile2.png" alt="移动端">   </p>
+<p>##三、配置</p>
+<p>主题配置文件在主目录下的<code>_config.yml</code>：</p>
+<p>```</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://slmsky.github.io/" target="_blank" rel="external">SLM’s blog</a></p>
-<h2 id="MY_plan"><a href="#MY_plan" class]]>
+    <![CDATA[<ol>
+<li>我喜欢简约。所以标签云，搜索框都拿掉了</li>
+<li>接地气一点。所以用上了jiathis分享，友言评论，以及baidu的cdn</li>
+<li>让大家把注意力放到内容上。这是本主题设计初衷</li>
+<li>主题不支持IE6，7，8。以后也不会</li>
+</ol>]]>
+    
     </summary>
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[My blog title]]></title>
+    <link href="http://yoursite.com/2015/12/12/first-blog/"/>
+    <id>http://yoursite.com/2015/12/12/first-blog/</id>
+    <published>2015-12-12T09:08:23.811Z</published>
+    <updated>2015-12-12T09:08:23.811Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>My Blog Website</p>
+</blockquote>
+<p>Welcome to <a href="http://slmsky.github.io/" target="_blank" rel="external">SLM’s blog</a></p>
+<h3 id="MY_plan"><a href="#MY_plan" class="headerlink" title="MY plan"></a>MY plan</h3><ol>
+<li>Record my idea usually.</li>
+<li>Share useful information.</li>
+<li>Test.</li>
+<li>finish.</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>My Blog Website</p>
+</blockquote>
+<p>Welcome to <a href="http://slmsky.github.io/" target="_blank" rel="external">SLM’s blog]]>
+    </summary>
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
