@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一个默默无闻的虫子]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://zgis.org/"/>
-  <updated>2017-04-20T15:54:25.262Z</updated>
+  <updated>2017-04-20T16:07:19.663Z</updated>
   <id>http://zgis.org/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[C# Net调用C++ DLL方法]]></title>
+    <title><![CDATA[C# Net调用C++ DLL的三种方法]]></title>
     <link href="http://zgis.org/2017/04/20/CSharpNetLanguageCallCppDLL/"/>
     <id>http://zgis.org/2017/04/20/CSharpNetLanguageCallCppDLL/</id>
     <published>2017-04-19T16:00:00.000Z</published>
-    <updated>2017-04-20T15:54:25.262Z</updated>
+    <updated>2017-04-20T16:07:19.663Z</updated>
     <content type="html"><![CDATA[<h4 id="C_23_Net_u8C03_u7528C++_DLL_u65B9_u6CD5"><a href="#C_23_Net_u8C03_u7528C++_DLL_u65B9_u6CD5" class="headerlink" title="C# Net调用C++ DLL方法"></a>C# Net调用C++ DLL方法</h4><h1 id="1_uFF1A_u91C7_u7528_u6258_u7BA1C++"><a href="#1_uFF1A_u91C7_u7528_u6258_u7BA1C++" class="headerlink" title="1：采用托管C++"></a>1：采用托管C++</h1><p>主要利用VC.Net的桥接作用，VC.Net和C#可以互相调用，同时也支持调用标准C++ 写的DLL的类和接口，将Net需要调用的类和函数采用VC++的托管类都重新包装一遍，返回C++对象指针为一个VC++ Net类型的对象即可。这需要用.NET运行时能看得懂的方式把C++的DLL的导出函数声明一遍。因为托管的环境和非托管的环境有很大的区别，程序员需要告诉.NET运行时，非托管环境下的函数签名（function signature）是什么样子的。函数签名包括函数的参数和返回值，以及参数的封送顺序等等。</p>
 <p>问题：</p>
 <p>1：需要都包装一遍，但是没有技术难度，重复工作</p>
